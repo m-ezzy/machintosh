@@ -1,0 +1,70 @@
+body {
+	margin: 0;
+	overflow: hidden;
+	
+	background-color: silver;
+	background-image: url(../images_mac/mac2.jpg);
+	background-size: auto;
+	background-repeat: no-repeat;
+}
+#menu {
+	position: absolute;
+	left: 0vw;
+	top: 0vh;
+	z-index: 2;
+
+	width: 100vw;
+	height: 7vh;
+	
+	border-radius: 0px;
+	border: 1px solid rgba( 255, 255, 255, 0.2 );
+	box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+	
+	backdrop-filter: blur( 10px );
+	-webkit-backdrop-filter: blur( 10px );
+}
+#dock {
+	position: absolute;
+	left: 20vw;
+	top: 88vh;
+	z-index: 2;
+	
+	width: 60vw;
+	height: 10vh;
+	
+	border-radius: 15px;
+	border: 1px solid rgba( 255, 255, 255, 0.2 );
+	box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+
+	backdrop-filter: blur( 10px );
+	-webkit-backdrop-filter: blur( 10px );
+}
+
+.cmenu {
+	position: absolute;
+	/*left: 10px;*/
+	top: 1vh;
+	z-index: 11;
+
+	width: 8vw;
+	height: 5vh;
+
+	border-radius: 1vh;
+	border: 1px solid rgba( 255, 255, 255, 0.2 );
+
+	box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+	backdrop-filter: blur( 10px );
+	-webkit-backdrop-filter: blur( 10px );
+}
+
+.icons {
+	position: absolute;
+	/*left: 20vw;*/
+	top: 0vh;
+	z-index: 11;
+	
+	width: 10vh;
+	height: 10vh;
+	
+	border-radius: 5px;
+}
